@@ -7,7 +7,7 @@ buttonClickEvent.addEventListener("click",(e) =>console.log(e));
 /*1.2 Añade un evento 'focus' que ejecute un console.log con el valor del input.*/
 
 const FocusEvent = document.querySelector(".focus");
-FocusEvent.addEventListener("focus", (e)=> console.log(e));
+FocusEvent.addEventListener("focus", (e)=> console.log(e.target.value));
 
 /*1.3 Añade un evento 'input' que ejecute un console.log con el valor del input.*/
 
